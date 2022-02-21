@@ -1,1 +1,1 @@
-py pip install gsheetsdb
+gsheetsdb
