@@ -2,6 +2,7 @@
 
 import streamlit as st
 from gsheetsdb import connect
+import SessionState
 
 # Create a connection object.
 conn = connect()
