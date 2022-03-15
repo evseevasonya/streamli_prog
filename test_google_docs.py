@@ -17,7 +17,7 @@ sheet_url = st.secrets["public_gsheets_url"]
 rows = run_query(f'SELECT * FROM "{sheet_url}"')
 
 
-
+print('5')
 
 # sql = f"""INSERT INTO "{sheet_url}" VALUES ("Vasia", "dog")"""
 # conn.cursor().execute(f"""INSERT INTO "{sheet_url}" (name_, pet) VALUES ("Vasia", "dog")""")
